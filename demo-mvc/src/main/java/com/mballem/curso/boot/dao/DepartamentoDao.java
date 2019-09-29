@@ -10,9 +10,9 @@ public interface DepartamentoDao {
 	
 	void update(Departamento departamento);
 	
-	void delete(Long id);
-	
-	Departamento findById();
-	
-	List<Departamento> findAll();
+    void delete(Long id);
+
+    Departamento findById(Long id);
+
+    List<Departamento> findAll();
 }
